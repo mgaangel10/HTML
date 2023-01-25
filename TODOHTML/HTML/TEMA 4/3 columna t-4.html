@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ejemplo 3 columnas</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+			
+		}
+		body{
+			width: 85%;
+			margin: 0 auto;
+		}
+		header img{
+			width: 100%;
+		}
+		#envoltorio{
+			width: 100%;
+			display: flex;
+			padding: 2%;
+		}
+		#envoltorio nav{
+			flex-basis: 20%;
+			flex-grow: 1;
+			flex-shrink: 1;
+			background-color: darkblue;
+			color: white;
+			padding: 20px ;
+
+		}
+		#envoltorio nav li{
+			list-style: none;
+		}
+		
+		#envoltorio main{
+			flex-basis: 80%;
+			flex-grow: 1;
+			flex-shrink: 1;
+			padding: 2%;
+		}
+		#envoltorio aside{
+			flex: 1 1 1  20px;
+			background-color: darkblue;
+			color: white;
+			padding: 20px;
+			width: 50%;
+
+		}
+		main .pconfoto p{
+			flex: 1 1 75%  ;
+		}
+		#envoltorio footer{
+			flex: 1 1 75%;
+			width: 10%;
+			padding: 20px;
+			background-color:darkblue ;
+			flex-grow: 1;
+			flex-shrink: 1;
+
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="../IMG/banner grecia.png" alt="banner de la pagina">
+	</header>
+	<div id="envoltorio">
+		<nav>
+			<li>personajes</li>
+			<li>sagas</li>
+			<li>creador</li>
+			<li>tienda</li>
+			<li>contacto</li>
+		</nav>
+		<main>
+			<h1></h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</main>
+		<aside id="envoltorio"> persomajes</aside>	
+	</div>
+	<footer id="envoltorio"><a href="#">aviso legal</a></footer>
+
+
+</body>
+</html>
