@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 2</title>
+    <style type="text/css">
+
+.fieldset{
+    display: none;
+    
+   
+  
+   
+}
+div:hover >.fieldset{
+    color: black;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+div{
+width: 100%;
+height: 100%;
+}
+
+
+
+
+
+
+    </style>
+<form action="">
+    <fieldset><legend>Datos Personales</legend>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" required placeholder="Su nombre"><br>
+        <label for="apellidos">Apellidos</label>
+        <input type="text" name="apellidos" id="apellidos"
+        required placeholder="Sus Apellidos"> <br>
+        <label for="Tu correo">correo</label>
+        <input type="mail" name="Tu correo " id="Tu correo"
+        required placeholder="Tu correo">  <br>
+        <label for="Sexo">Sexo</label><br>
+        <input type="radio" name="genero" value="M">Masculino <br>
+        <input type="radio" name="genero" value="F">Femenino <br>
+        <input type="radio" name="genero" value="O">Otro <br>
+        <p>Aficiones</p>
+        <input type="checkbox" name="programar" value="prog">
+        <label for="programar">Programar</label><br>
+        <input type="checkbox" name="twitch" value="twitch">
+        <label for="twitch">Estremear en twitch</label><br>
+        <input type="checkbox" name="arrascar" value="rascar">
+        <label for="rascar">Arrascarse la barriga</label><br>
+        <input type="checkbox" name="jugar" value="jugar">
+        <label for="jugar">Jugar al padel</label><br>
+        <input type="checkbox" name="futbol" value="futbol">
+        <label for="futbol">Jugar al futbol</label><br>
+        <input type="checkbox" name="ver" value="ver">
+        <label for="ver">Ver la tele</label><br>
+        <input type="checkbox" name="salir" value="salir">
+        <label for="salir">Salir con los colegas</label><br>
+        <input type="checkbox" name="leer" value="leer">
+        <label for="leer">Leer</label><br>
+        <input type="checkbox" name="fiesta" value="fiesta">
+        <label for="fiesta">Salir de fiesta</label><br>
+        <input type="checkbox" name="dormir" value="dormir">
+        <label for="dormir">Dormir</label><br>
+        <label for="fnac">Fecha de nacimiento</label>
+        <input type="date" name="fnac" id="fnac" 
+        min="1900-01-01" max="2023-12-31">
+        
+    </fieldset>
+        
+    
+    <div>
+
+   
+    <h2>Crea Tu Usuario</h2>
+
+    <fieldset class="fieldset">
+        <legend>Crea Tu usuario</legend>
+        <label for="nombre">Nombre usuario</label>
+        <input type="text" name="nombre" id="nombre"
+        required placeholder="Nombre"> <br>
+        <label for="contraseña">Contraseña</label>
+        <input type="password" name="contraseña" id="contraseña"
+        required placeholder="Contraseña"><br>
+        <label for="repetir">Repetir Contraseña</label>
+        <input type="password" name="repetir" id="repetir" 
+        required placeholder="Repetir contraseña"><br>
+        <input type="image" name="enviar" 
+        src="../IMG copia/enviar.jpg" alt="enviar" width="200pt" height="200pt">
+        
+    </fieldset>
+
+   
+
+
+    </div>
+    
+
+</form>
+</head>
+<body>
+    
+</body>
+</html>
