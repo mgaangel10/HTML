@@ -38,12 +38,10 @@
         fieldset:hover p{
             display: block;
         }
-        .fiel{
-            display: flex;
-            background-color: white;
-        }
+       
         input[type="text"]:focus{
             background-color: yellow  ;
+            
         }
         
         
@@ -93,19 +91,33 @@
                     <div >
                         <input type="text" name="direccion" id="direccion" 
                         required placeholder="">
-                        <p>asdasds</p>
+                        <p>Codigo Postal</p>
                      
-                        <input type="text" name="direccion" id="direccion" 
-                        required placeholder=""><br>
-                        <p>dsds</p>
+                        <input type="text" name="tipo" id="fruta" list="opciones">
+                        <datalist id="opciones">
+                        <option value="Sevilla"></option>
+                        <option value="Cordoba"></option>
+                        <option value="Granada"></option>
+                        <option value="Jaen"></option>
+                        <option value="Cadiz"></option>
+                        <option value="Malaga"></option>
+                        </datalist><br>
+                        <p>Provincia</p>
                      </div>
                     <div>
                         <input type="text" name="direccion" id="direccion" 
                         required placeholder="">
-                        <p>sdas</p>
-                        <input type="text" name="direccion" id="direccion" 
-                        required placeholder=""><br>
-                        <p>asddf</p>
+                        <p>Municipio</p>
+                        <input type="text" name="tipo" id="fruta" list="opciones">
+                        <datalist id="opciones">
+                        <option value="España"></option>
+                        <option value="Francia"></option>
+                        <option value="Estados Unidos"></option>
+                        <option value="Italia"></option>
+                        <option value="Rusia"></option>
+                        <option value="Filipina"></option>
+                        </datalist><br>
+                        <p>Pais</p>
                      </div>
                      <p class="p1">el codigo postal es imprescindible para poder recebir pedidos</p>
                     

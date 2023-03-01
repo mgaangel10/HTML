@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 8</title>
+    <style type="text/css">
+        body{
+            background-color: rgb(37, 168, 182);
+        }
+        legend{
+            margin: 0 auto;
+            font-size: xx-large;
+        }
+        fieldset div{
+            margin-left: 25%;
+            margin-top: 5%;
+            
+            
+            
+        }
+        fieldset{
+            border-radius: 15pt;
+            background-color: rgb(0, 0, 0);
+            margin: 0 auto;
+            width: 400pt;
+            height: 100%;
+            color: white;
+
+        }
+        
+
+
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            
+            <legend>Reserva</legend>
+            <div>
+                 <label for="huesped">Número de huespedes</label>
+                 <input type="number" name="edad" id="edad"
+                 min="0" max="15" step="1" size="2">
+            </div>
+           <div>
+            <label for="Fecha">Fecha de entrada</label>
+            <input type="date" name="fecha" id="fecha"
+            required placeholder="dia de entrada"><br>
+           </div>
+            <div>
+                 <label for="salida">Fecha de salida</label>
+            <input type="date" name="salida" id="salida" 
+            required placeholder="de salida"><br>
+            </div>
+           <div>
+            <label for="tipo">Tipo de habitacion</label>
+            <input type="text" name="tipo" id="fruta" list="opciones">
+            <datalist id="opciones">
+                <option value="Suit"></option>
+                <option value="Estandar"></option>
+                <option value="Doble planta"></option>
+                <option value="Premiun"></option>
+            </datalist><br>
+           </div>
+            <div>
+                <label for="email">Email</label>
+            <input type="mail" name="email" id="email"
+            required placeholder="Email">
+            </div>
+            <div>
+                <input type="image" name="enviar" 
+            src="../TEMA6/IMG - copia/enviar.jpg" 
+            alt="enviar" width="200pt" height="200pt">
+            </div>
+            
+            
+        </fieldset>
+    </form>
+    
+</body>
+</html>
